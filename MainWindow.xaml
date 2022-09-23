@@ -13,6 +13,7 @@
           Content="+++++" Click="button2_Click" Margin="577,194,155,195"/>
         <Button x:Name="button3" Width="60" Height="30" Background="Gold" 
                 Content="00000" Click="button3_Click" Margin="351,194,381,195"/>
+       
 
     </Grid>
 </Window>
