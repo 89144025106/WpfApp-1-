@@ -45,7 +45,7 @@ namespace WpfApp_практическая_работа_1_Гуляева
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-           
+          
         }
     }
     }
