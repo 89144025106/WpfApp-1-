@@ -8,12 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="button1" Width="60" Height="30" Background="PeachPuff" 
-                Content="*****" Click="button1_Click" Margin="158,194,574,195"/>
+                Content="*****" Click="button1_Click" Margin="127,185,605,204"/>
         <Button x:Name="button2" Width="60" Height="30" Background="Crimson" 
-          Content="+++++" Click="button2_Click" Margin="577,194,155,195"/>
+          Content="+++++" Click="button2_Click" Margin="596,175,136,214"/>
         <Button x:Name="button3" Width="60" Height="30" Background="Gold" 
-                Content="00000" Click="button3_Click" Margin="351,194,381,195"/>
-       
-
+         Content="00000" Click="button3_Click" Margin="347,185,385,204"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="330,301,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        
     </Grid>
 </Window>

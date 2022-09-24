@@ -27,20 +27,26 @@ namespace WpfApp_практическая_работа_1_Гуляева
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("*****");
+        
 
         }
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("00000");
+         
 
 
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("+++++");
+           
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+           
         }
     }
-}
+    }
+
