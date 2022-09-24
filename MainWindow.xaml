@@ -17,7 +17,7 @@
           Content="+++++" Click="button2_Click" Margin="121.654,175,136,214" Grid.Column="1"/>
         <Button x:Name="button3" Width="60" Height="30" Background="Gold" 
          Content="00000" Click="button3_Click" Margin="347,185,67.346,204"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="330,301,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-
+        <TextBox x:Name="texbox1" HorizontalAlignment="Left" Height="23" Margin="330,301,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        
     </Grid>
 </Window>
