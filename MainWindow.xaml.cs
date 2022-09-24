@@ -27,20 +27,20 @@ namespace WpfApp_практическая_работа_1_Гуляева
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            texbox1.Text = "*****"; 
+            texbox1.Text = "*****";
 
         }
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
+            texbox1.Text = "00000";
 
-       
 
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-        
+            texbox1.Text = "+++++";
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
