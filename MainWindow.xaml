@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp_практическая_работа_1_Гуляева"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="Grid" Margin="-2,-26,2,26">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="79*"/>
             <ColumnDefinition Width="53*"/>
@@ -17,8 +17,7 @@
           Content="+++++" Click="button2_Click" Margin="239,99,175,290"/>
         <Button x:Name="button3" Width="60" Height="30" Background="Gold" 
          Content="00000" Click="button3_Click" Margin="347,185,67.346,204"/>
-        
-        <TextBox x:Name="texbox1" HorizontalAlignment="Left" Height="23" Margin="179,311,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-
-    </Grid>
+         <TextBox x:Name="texbox1" HorizontalAlignment="Left" Height="23" Margin="179,311,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+       
+        </Grid>
 </Window>

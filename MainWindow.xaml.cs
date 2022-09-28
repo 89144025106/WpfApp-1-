@@ -23,10 +23,13 @@ namespace WpfApp_практическая_работа_1_Гуляева
         public MainWindow()
         {
             InitializeComponent();
+            Grid.Background = Brushes.Gray;
+            
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            
             texbox1.Text = "*****";
 
         }
@@ -41,12 +44,13 @@ namespace WpfApp_практическая_работа_1_Гуляева
         private void button2_Click(object sender, RoutedEventArgs e)
         {
             texbox1.Text = "+++++";
+            
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-          
+       
         }
     }
-    }
+    
+    
+
 
